@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/SafeBanc/static/css/main.b96f9598.chunk.css",
+    "main.js": "/SafeBanc/static/js/main.775c465c.chunk.js",
+    "main.js.map": "/SafeBanc/static/js/main.775c465c.chunk.js.map",
+    "runtime-main.js": "/SafeBanc/static/js/runtime-main.cdb74d4e.js",
+    "runtime-main.js.map": "/SafeBanc/static/js/runtime-main.cdb74d4e.js.map",
+    "static/js/2.b8f4b1fa.chunk.js": "/SafeBanc/static/js/2.b8f4b1fa.chunk.js",
+    "static/js/2.b8f4b1fa.chunk.js.map": "/SafeBanc/static/js/2.b8f4b1fa.chunk.js.map",
+    "static/js/3.66b358ae.chunk.js": "/SafeBanc/static/js/3.66b358ae.chunk.js",
+    "static/js/3.66b358ae.chunk.js.map": "/SafeBanc/static/js/3.66b358ae.chunk.js.map",
+    "index.html": "/SafeBanc/index.html",
+    "static/css/main.b96f9598.chunk.css.map": "/SafeBanc/static/css/main.b96f9598.chunk.css.map",
+    "static/js/2.b8f4b1fa.chunk.js.LICENSE.txt": "/SafeBanc/static/js/2.b8f4b1fa.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.cdb74d4e.js",
+    "static/js/2.b8f4b1fa.chunk.js",
+    "static/css/main.b96f9598.chunk.css",
+    "static/js/main.775c465c.chunk.js"
+  ]
+}
