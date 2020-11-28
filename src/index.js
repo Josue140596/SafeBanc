@@ -8,10 +8,18 @@ import './styles/styles.scss';
 // Components con rutas
 import { AppRouter } from './routers/AppRouter';
 
+import { Provider } from 'react-redux';
+
+import { store } from './store/store';
+
 ReactDOM.render(
-  <React.StrictMode>
+  
+  <Provider store={store}>
+
     <AppRouter />
-  </React.StrictMode>,
+
+  </Provider>
+  ,
   document.getElementById('root')
 );
 

@@ -5,10 +5,12 @@ import {
     Route,
     Redirect
 } from 'react-router-dom';
+import { BusinessScreen } from '../components/BusinessScreen';
 
 //Components 
 import { HomeScreen } from '../components/HomeScreen';
 import { LoginScreen } from '../components/LoginScreen';
+import { PeopleScreen } from '../components/PeopleScreen';
 import { RegisterScreen } from '../components/RegisterScreen';
 import { UserPage } from '../components/UserPage';
 
@@ -38,6 +40,18 @@ export const AppRouter = () => {
                         component={RegisterScreen}
                     />
 
+                     <Route
+                        exact
+                        path='/People'
+                        component={PeopleScreen}
+                    />
+
+                     <Route
+                        exact
+                        path='/Business'
+                        component={BusinessScreen}
+                    />
+                    
                     <Route
                         exact
                         path='/UserPage'

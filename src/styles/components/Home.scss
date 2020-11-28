@@ -10,16 +10,13 @@
 .subcontainerHome{
     width: 1050px;
     height: 600px;
-    background-color: #161514;
-    border-radius: 60px;
-    background-image: url('https://i.ibb.co/PhjrLzY/Back-With-Img.png');
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color: transparent;
     display: flex;
     flex-direction: column;
+    // border: solid chartreuse;
 }
 .navBar {
-    
+    // border: solid rgb(206, 78, 5);
     flex: 1;
     overflow: hidden;
     color: white;
@@ -27,19 +24,19 @@
     font-size: 24px;
     font-family: $primaryFont;
 }
-ul{
+.ulHomeScreen{
     list-style-type: none;
     margin: 3%;
     padding: 0;
     float: right;
 }
-li{
+.liHomeScreen{
     display: inline;
     margin: 50px;
 }
 
 .phraseMark{
-    
+    // border: solid rgb(5, 42, 206);
     flex: 7 1;
     display: flex;
     justify-content: center;
@@ -49,12 +46,29 @@ li{
 }
 
 .text1{
+    // border: solid rgb(206, 5, 156);
     font-size: 64px;
     font-family: $secundaryFont;
     letter-spacing: 0.17em;
 }
 .text2{
+    // border: solid rgb(5, 206, 5);
     font-size: 48px;
     font-family: $primaryFont;
     letter-spacing: 0.17em;
 }
+
+// Responsive design
+
+
+@media only screen and (max-width:700px) {
+    /* For mobile phones: */
+    
+    // Estoy quitando los ul para dejar el menuHam
+    .ulHomeScreen{
+        display: none;
+    }
+
+ 
+  }
+
